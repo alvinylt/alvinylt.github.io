@@ -1,2 +1,2 @@
-# alvin-ylt.github.io
-This is the repository for the user site of alvin-ylt.
+# alvinylt.github.io
+This is the repository for the user site of alvinylt.
