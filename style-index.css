@@ -29,7 +29,9 @@ h1 {
 }
 
 .textlink {
-  color: #848484
+  color: #848484;
+  margin-left: 3em;
+  margin-right: 3em;
 }
 
 .blink {
@@ -42,5 +44,5 @@ h1 {
 }
 
 .fa-solid, .fa-brands, .fa-regular {
-    color: grey;
+    color: #848484;
 }
