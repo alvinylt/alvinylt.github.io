@@ -25,34 +25,36 @@ h1 {
 
 .iconlink {
   display: inline-block;
-  margin: 0 16px 0 0;
+  margin: 16px 16px 0 0;
 }
 
 .textlink {
   color: #848484;
-  margin-left: 3em;
-  margin-right: 3em;
+  margin-left: 4em;
+  margin-right: 4em;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 
 @media only screen and (max-width: 600px) {
-    .textlink {
-        color: #848484;
-        width: 100%;
-        height: 100%;
-        margin-left: 0;
-        margin-right: 0;
-    }
+  .textlink {
+    color: #848484;
+    width: 100%;
+    height: 100%;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
 }
 
 .blink {
-    animation: blink 1s linear infinite;
+  animation: blink 1s linear infinite;
 }
 @keyframes blink {
-    0% { opacity: 1; }
-    50% { opacity: 0; }
-    100% { opacity: 1; }
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 .fa-solid, .fa-brands, .fa-regular {
-    color: #848484;
+  color: #848484;
 }

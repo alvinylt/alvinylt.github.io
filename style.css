@@ -13,7 +13,7 @@ html, body {
 
 .iconlink {
   display: inline-block;
-  margin: 0 16px 0 0;
+  margin: 16px 16px 0 0;
 }
 
 ul li {
@@ -21,13 +21,29 @@ ul li {
 }
 
 a:link {
-    color: darkslateblue;
+  color: darkslateblue;
 }
 
 a:visited {
-    color: darkolivegreen
+  color: darkolivegreen
 }
 
 .fa-solid, .fa-brands, .fa-regular {
-    color: #848484;
+  color: #848484;
+}
+
+.trinket {
+  width: 100%;
+  height: 356px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  html, body {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
 }
