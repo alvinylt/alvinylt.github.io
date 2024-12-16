@@ -3,54 +3,152 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Alvin Tang: Personal Website" />
-  <meta name="author" content="Alvin Tang" />
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Alvin Tang: Personal Website">
+  <meta name="author" content="Alvin Tang">
+
   <title>Alvin Tang | Personal Website</title>
 
-  <link rel="icon" href="favicon.svg" sizes="any" type="image/svg+xml" />
-  <link rel="canonical" href="https://alvinylt.net/" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet" /> 
-  <link href="assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
-  <link href="assets/fontawesome/css/brands.css" rel="stylesheet" />
-  <link href="assets/fontawesome/css/solid.css" rel="stylesheet" />
-  <link href="index.css" rel="stylesheet" />
+  <link rel="icon" href="favicon.png" sizes="any" type="image/png">
+  <link rel="canonical" href="https://alvinylt.net/bio">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet"> 
+  <link href="assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="assets/fontawesome/css/brands.css" rel="stylesheet">
+  <link href="assets/fontawesome/css/solid.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-  <div>
-    <h1>Alvin's Personal Website<span class="blink">_</span></h1>
+  <h1>Alvin Tang</h1>
 
-    <a href="bio" class="textlink">About Me</a>
-    <a href="courses" class="textlink">ANU Course Plan</a>
+  <p>
+    Hello there! I'm Alvin. Currently pursuing an honours degree at the ANU,
+    I'm enthusiastic about logic in computer science, particularly functional
+    models of computation and proof calculi. My recent projects involve research
+    in primitive corecursion and theorem proving with non-classical logic
+    systems. 
+  </p>
 
-    <div></div>
+  <h2>Education</h2>
 
-    <a href="code" class="iconlink">
-      <i class="fa-solid fa-code" style="font-size: 1.8em"></i>
-    </a>
+  <ul>
+    <li>Feb 2022 &ndash; Dec 2025 (Expected):
+      <a href="https://programsandcourses.anu.edu.au/2022/program/AACRD">
+        Bachelor of Advanced Computing (Research and Development) (Honours)</a>
+        at the Australian National University (ANU)
+      <ul>
+        <li>View the <a href="/courses">list of courses</a> I completed / will be taking</li>
+      </ul>
+    </li>
+
+    <li>Jun 2021: International Advanced Levels (IAL)
+      <ul>
+        <li>A*A*A* in Mathematics, Further Mathematics and Physics</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h2>Projects and Academic Writings</h2>
+
+  <p>
+    My recent projects involve studies in computability, corecursion and
+    automated theorem proving.
+  </p>
+  <ol>
+    <li>Computable Corecursive Functions: A Coalgebraic Approach to A
+      Turing-Complete Model
+      <ul>
+        <li>Supervisor: Prof Dirk Pattinson</li>
+      </ul>
+    </li>
+    <li>CEGAR-Tableaux for Non-Normal Modal Logics
+      <ul>
+        <li>Supervisor: Prof Rajeev Goré</li>
+      </ul>
+    </li>
+  </ol>
+
+  <p>
+    Other projects and academic writings include:
+  </p>
+  <ul>
+    <li><a href="https://github.com/alvinylt/essays/tree/main/Logic">
+        Resolving the Material Paradox of Implication from the Principle
+        of Explosion in Orthodox Logic with Auxiliary Truth Values</a></li>
+    <li><a href="https://arxiv.org/abs/2308.12983">
+        Implementation of Formal Semantics and the Potential of Non-Classical
+        Logic Systems for the Enhancement of Access Control Models</a></li>
+    <li><a href="https://arxiv.org/abs/2312.04586">
+        Automated SELinux RBAC Policy Verification Using SMT</a></li>
+  </ul>
+  
+  <p>
+    See my <a href="https://github.com/alvinylt/essays/tree/main">repository</a>
+    for details.
+  </p>
+
+  <h2>Internship Experience</h2>
+
+  <ul>
+    <li>Jul 2021 &ndash; Aug 2021: Student Intern at <a href="https://auralabs.com.hk">Aura Labs</a>
+      <ul>
+        <li>Streamlining of DevOps pipeline with Jenkins, Docker, Webmin & nginx reverse proxy</li>
+        <li>Automation of SSL certificate renewal with Ansible</li>
+        <li>Creation of tools with Node.js and npm</li>
+        <li>Web development with Notion and Fruition</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h2>Technical Skills</h2>
+
+  <p>
+    I have used interactive theorem provers, namely <b>Isabelle/HOL</b> and 
+    <b>Coq</b>,
+    in recent projects to formalise the theories.
+    I personally find the unification of intuitionistic logic and program types
+    in Coq (i.e., Curry-Howard correspondence) elegant, whilst Isabelle/HOL is
+    better suited for handling coinduction.
+  </p>
+
+  <p>
+    Amongst Turing-complete programming languages, <b>Haskell</b> is my
+    favourite and the one I'm most familiar with. Its support for lazy evaluation and
+    higher-order functions closely resemble primitive functional models of computation
+    and thus has been an excellent tool for testing my project ideas.
+  </p>
+
+  <p>
+    The technical skills developed throughout my studies are surely not limited
+    to theoretical computer science. I have been mainly using the <b>C</b>
+    programming language for systems programming and high-performance programs
+    dealing with low-level operations.
+  </p>
+
+  <p>
+    I'm also fairly confident in <b>Java</b>, which I have used for Android app
+    development, as well as <b>Python</b> for implementing symbolic AI algorithms.
+  </p>
+
+  <p>
+    I almost exclusively use LaTeX for document writing.
+  </p>
+
+  <hr>
+
+  <footer>
     <a href="pubkey" class="iconlink">
       <i class="fa-solid fa-key" style="font-size: 1.8em"></i>
     </a>
     <a href="https://github.com/alvinylt" class="iconlink">
       <i class="fa-brands fa-github" style="font-size: 1.8em"></i>
     </a>
-    <a href="https://stackoverflow.com/users/12716154/alvin-tang" class="iconlink">
-      <i class="fa-brands fa-stack-overflow" style="font-size: 1.8em"></i>
-    </a>
     <a href="https://orcid.org/0009-0001-1041-5360" class="iconlink">
       <i class="fa-brands fa-orcid" style="font-size: 1.8em"></i>
     </a>
     <a href="https://scholar.google.com/citations?user=Knsdv4IAAAAJ" class="iconlink">
       <i class="fa-brands fa-google-scholar" style="font-size: 1.8em"></i>
-    </a>
-    <a href="https://www.researchgate.net/profile/Alvin-Tang-9" class="iconlink">
-      <i class="fa-brands fa-researchgate" style="font-size: 1.8em"></i>
-    </a>
-    <a href="https://t.me/alvin_ylt" class="iconlink">
-      <i class="fa-brands fa-telegram" style="font-size: 1.8em"></i>
     </a>
     <a href="https://en.wikipedia.org/wiki/User:Alvinz" class="iconlink">
       <i class="fa-brands fa-wikipedia-w" style="font-size: 1.8em"></i>
@@ -61,7 +159,7 @@
     <a href="mailto:info@alvinylt.net" class="iconlink">
       <i class="fa-solid fa-envelope" style="font-size: 1.8em"></i>
     </a>
-  </div>
+  </footer>
 </body>
 
 </html>

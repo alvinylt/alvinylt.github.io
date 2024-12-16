@@ -1,7 +1,5 @@
 User-agent: *
 Allow: /index.html
-Allow: /bio.html
 Allow: /courses.html
-Allow: /code.html
 Disallow: /404.html
 Disallow: /assets/
