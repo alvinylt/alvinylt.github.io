@@ -17,194 +17,112 @@
   <link href="assets/fontawesome/css/brands.css" rel="stylesheet">
   <link href="assets/fontawesome/css/solid.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
+
+  <style>
+    table {
+      width: 100%;
+      table-layout: auto;
+      border-collapse: collapse;
+    }
+
+    col.auto {
+      width: 8%;
+    }
+
+    col.flex {
+      width: 21%;
+    }
+
+    th, td {
+      height: auto;
+      border: 1px solid black;
+      border-collapse: collapse;
+      border-style: ridge;
+      padding: 6px;
+    }
+  </style>
 </head>
 
 <body>
   <h1>ANU Course Plan</h1>
 
-  These are the courses I took or planning to study as part of the
-  <a href="https://programsandcourses.anu.edu.au/2022/program/AACRD">
+  <p>These are the courses I completed or studying as part of the
+    <a href="https://programsandcourses.anu.edu.au/2022/program/AACRD">
     Bachelor of Advanced Computing (Research and Development) (Honours)</a>
-  degree at the Australian National University (ANU).
+    degree at the Australian National University (ANU).
+  </p>
 
-  <h2>Year 1 (2022)</h2>
-
-  <h3>Semester 1</h3>
-
-  <ul>
-    <li>COMP1130:
-      <a href="https://programsandcourses.anu.edu.au/2022/course/COMP1130">
-        Programming as Problem Solving (Advanced)</a>
-    </li>
-    <li>COMP2620:
-      <a href="https://programsandcourses.anu.edu.au/2022/course/COMP2620">
-        Logic</a>
-    </li>
-    <li>MATH1005:
-      <a href="https://programsandcourses.anu.edu.au/2022/course/MATH1005">
-        Discrete Mathematical Models</a>
-    </li>
-    <li>MATH1115:
-      <a href="https://programsandcourses.anu.edu.au/2022/course/MATH1115">
-        Advanced Mathematics and Applications 1</a>
-    </li>
-  </ul>
-
-  <h3>Semester 2</h3>
-
-  <ul>
-    <li>COMP1140:
-      <a href="https://programsandcourses.anu.edu.au/2022/course/COMP1140">
-        Structured Programming (Advanced)</a>
-    </li>
-    <li>COMP1600:
-      <a href="https://programsandcourses.anu.edu.au/2022/course/COMP1600">
-        Foundation of Computing</a>
-    </li>
-    <li>COMP2700:
-      <a href="https://programsandcourses.anu.edu.au/2022/course/COMP2700">
-        Cyber Security Foundations</a>
-    </li>
-    <li>MATH1116:
-      <a href="https://programsandcourses.anu.edu.au/2022/course/MATH1116">
-        Advanced Mathematics and Applications 2</a>
-    </li>
-  </ul>
-
-  <h2>Year 2 (2023)</h2>
-
-  <h3>Semester 1</h3>
-
-  <ul>
-    <li>COMP2100:
-      <a href="https://programsandcourses.anu.edu.au/2023/course/COMP2100">
-        Software Design Methodologies</a>
-    </li>
-    <li>COMP2300:
-      <a href="https://programsandcourses.anu.edu.au/2023/course/COMP2300">
-        Computer Organisation and Program Execution</a>
-    </li>
-    <li>COMP2420:
-      <a href="https://programsandcourses.anu.edu.au/2023/course/COMP2420">
-        Introduction to Data Management, Analysis and Security</a>
-    </li>
-    <li>COMP2550:
-      <a href="https://programsandcourses.anu.edu.au/2023/course/COMP2550">
-        Advanced Computing R&D Methods</a>
-        (Literature review: non-classical logic and access control)
-    </li>
-  </ul>
-
-  <h3>Semester 2</h3>
-
-  <ul>
-    <li>COMP2120:
-      <a href="https://programsandcourses.anu.edu.au/2023/course/COMP2120">
-        Software Engineering</a>
-    </li>
-    <li>COMP2310:
-      <a href="https://programsandcourses.anu.edu.au/2023/course/COMP2310">
-        Systems, Networks and Concurrency</a>
-    </li>
-    <li>COMP2560:
-      <a href="https://programsandcourses.anu.edu.au/2023/course/COMP2560">
-        Studies in Advanced Computing R&D</a>
-        (Project: Automated SELinux RBAC Policy Verification Using SMT)
-    </li>
-    <li>COMP3600:
-      <a href="https://programsandcourses.anu.edu.au/2023/course/COMP3600">
-        Algorithms</a>
-    </li>
-  </ul>
-
-  <h2>Year 3 (2024)</h2>
-
-  <h3>Semester 1</h3>
-
-  <ul>
-    <li>COMP3310:
-      <a href="https://programsandcourses.anu.edu.au/2024/course/COMP3310">
-        Computer Networks</a>
-    </li>
-    <li>COMP3620:
-      <a href="https://programsandcourses.anu.edu.au/2024/course/COMP3620">
-        Artificial Intelligence</a>
-    </li>
-    <li>COMP3630:
-      <a href="https://programsandcourses.anu.edu.au/2024/course/COMP3630">
-        Theory of Computation</a>
-    </li>
-    <li>COMP3770:
-      <a href="https://programsandcourses.anu.edu.au/2024/course/COMP3770">
-        Computing Research Project (R&D)</a>
-        (Project: Computable Corecursive Functions: A Coalgebraic Approach to A
-        Turing-Complete Model)
-    </li>
-  </ul>
-
-  <h3>Semester 2</h3>
-
-  <ul>
-    <li>COMP3300:
-      <a href="https://programsandcourses.anu.edu.au/2024/course/COMP3300">
-        Operating Systems Implementation</a>
-    </li>
-    <li>COMP3320:
-      <a href="https://programsandcourses.anu.edu.au/2024/course/COMP3320">
-        High Performance Scientific Computing</a>
-    </li>
-    <li>COMP3770:
-      <a href="https://programsandcourses.anu.edu.au/2024/course/COMP3770">
-        Computing Research Project (R&D)</a>
-        (Project: Computable Corecursive Functions: A Coalgebraic Approach to A
-        Turing-Complete Model, continued)
-    </li>
-    <li>COMP4011:
-      <a href="https://programsandcourses.anu.edu.au/2024/course/COMP4011">
-        Advanced Topics in Formal Methods and Programming Languages</a>
-        (Topic: Software Verification using Proof Assistant)
-    </li>
-  </ul>
-
-  <h2>Year 4 (2025)</h2>
-
-  <h3>Semester 1</h3>
-
-  <ul>
-    <li>COMP4011:
-      <a href="https://programsandcourses.anu.edu.au/2025/course/COMP4011">
-        Advanced Topics in Formal Methods and Programming Languages</a>
-        (Topic: Concurrent Software Verification)
-    </li>
-    <li>COMP4550:
-      <a href="https://programsandcourses.anu.edu.au/2025/course/COMP4550">
-        Computing Research Project</a>
-        (Project: Generalised Type Preprocessing for Integrated Subtyping)
-    </li>
-    <li>COMP4712:
-      <a href="https://programsandcourses.anu.edu.au/2025/course/COMP4712">
-        Compiler Construction</a>
-    </li>
-  </ul>
-
-  <h3>Semester 2 (Prospective)</h3>
-
-  <ul>
-    <li>COMP3610:
-        <a href="https://programsandcourses.anu.edu.au/2025/course/COMP3610">
-          Principles of Programming Languages</a>
-    </li>
-    <li>COMP3704:
-      <a href="https://programsandcourses.anu.edu.au/2025/course/COMP3704">
-        Network Security</a>
-    </li>
-    <li>COMP4550:
-      <a href="https://programsandcourses.anu.edu.au/2025/course/COMP4550">
-        Computing Research Project</a>
-        (Project: Generalised Type Preprocessing for Integrated Subtyping,
-        continued)
-    </li>
-  </ul>
+  <table>
+    <colgroup>
+      <col class="auto">
+      <col class="auto">
+      <col class="flex">
+      <col class="flex">
+      <col class="flex">
+      <col class="flex">
+    </colgroup>
+    <tr>
+      <th>Year</th>
+      <th>Semester</th>
+      <th colspan="4">Courses</th>
+    </tr>
+    <tr>
+      <td rowspan="2">Year 1 (2022)</td>
+      <td>Semester 1</td>
+      <td><a href="https://programsandcourses.anu.edu.au/2022/course/COMP1130">COMP1130</a>: Programming as Problem Solving (Advanced)</td>
+      <td><a href="https://programsandcourses.anu.edu.au/2022/course/COMP2620">COMP2620</a>: Logic</td>
+      <td><a href="https://programsandcourses.anu.edu.au/2022/course/MATH1005">MATH1005</a>: Discrete Mathematical Models</td>
+      <td><a href="https://programsandcourses.anu.edu.au/2022/course/MATH1115">MATH1115</a>: Advanced Mathematics and Applications 1</td>
+    </tr>
+    <tr>
+      <td>Semester 2</td>
+      <td><a href="https://programsandcourses.anu.edu.au/2022/course/COMP1140">COMP1140</a>: Structured Programming (Advanced)</td>
+      <td><a href="https://programsandcourses.anu.edu.au/2022/course/COMP1600">COMP1600</a>: Foundation of Computing</td>
+      <td><a href="https://programsandcourses.anu.edu.au/2022/course/COMP2700">COMP2700</a>: Cyber Security Foundations</td>
+      <td><a href="https://programsandcourses.anu.edu.au/2022/course/MATH1116">MATH1116</a>: Advanced Mathematics and Applications 2</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Year 2 (2023)</td>
+      <td>Semester 1</td>
+      <td><a href="https://programsandcourses.anu.edu.au/2023/course/COMP2100">COMP2100</a>: Software Design Methodologies</td>
+      <td><a href="https://programsandcourses.anu.edu.au/2023/course/COMP2300">COMP2300</a>: Computer Organisation and Program Execution</td>
+      <td><a href="https://programsandcourses.anu.edu.au/2023/course/COMP2420">COMP2420</a>: Introduction to Data Management, Analysis and Security</td>
+      <td><a href="https://programsandcourses.anu.edu.au/2023/course/COMP2550">COMP2550</a>: Advanced Computing R&amp;D Methods (Literature review: non-classical logic and access control)</td>
+    </tr>
+    <tr>
+      <td>Semester 2</td>
+      <td><a href="https://programsandcourses.anu.edu.au/2023/course/COMP2120">COMP2120</a>: Software Engineering</td>
+      <td><a href="https://programsandcourses.anu.edu.au/2023/course/COMP2310">COMP2310</a>: Systems, Networks and Concurrency</td>
+      <td><a href="https://programsandcourses.anu.edu.au/2023/course/COMP2560">COMP2560</a>: Studies in Advanced Computing R&amp;D (Automated SELinux RBAC Policy Verification Using SMT)</td>
+      <td><a href="https://programsandcourses.anu.edu.au/2023/course/COMP3600">COMP3600</a>: Algorithms</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Year 3 (2024)</td>
+      <td>Semester 1</td>
+      <td><a href="https://programsandcourses.anu.edu.au/2024/course/COMP3310">COMP3310</a>: Computer Networks</td>
+      <td><a href="https://programsandcourses.anu.edu.au/2024/course/COMP3620">COMP3620</a>: Artificial Intelligence</td>
+      <td><a href="https://programsandcourses.anu.edu.au/2024/course/COMP3630">COMP3630</a>: Theory of Computation</td>
+      <td rowspan="2"><a href="https://programsandcourses.anu.edu.au/2024/course/COMP3770">COMP3770</a>: Computing Research Project (R&amp;D) (Computable Corecursive Functions: A Coalgebraic Approach to A Turing-Complete Model)</td>
+    </tr>
+    <tr>
+      <td>Semester 2</td>
+      <td><a href="https://programsandcourses.anu.edu.au/2024/course/COMP3300">COMP3300</a>: Operating Systems Implementation</td>
+      <td><a href="https://programsandcourses.anu.edu.au/2024/course/COMP3320">COMP3320</a>: High Performance Scientific Computing</td>
+      <td><a href="https://programsandcourses.anu.edu.au/2024/course/COMP4011">COMP4011</a>: Advanced Topics in Formal Methods and Programming Languages (Software Verification using Proof Assistant)</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Year 4 (2025)</td>
+      <td>Semester 1</td>
+      <td><a href="https://programsandcourses.anu.edu.au/2025/course/COMP4011">COMP4011</a>: Advanced Topics in Formal Methods and Programming Languages (Concurrent Software Verification)</td>
+      <td><a href="https://programsandcourses.anu.edu.au/2025/course/COMP4712">COMP4712</a>: Compiler Construction</td>
+      <td colspan="2" rowspan="2"><a href="https://programsandcourses.anu.edu.au/2025/course/COMP4550">COMP4550</a>: Computing Research Project (Generalised Type Preprocessing for Integrated Subtyping)</td>
+    </tr>
+    <tr>
+      <td>Semester 2</td>
+      <td><a href="https://programsandcourses.anu.edu.au/2025/course/COMP3610">COMP3610</a>: Principles of Programming Languages</td>
+      <td><a href="https://programsandcourses.anu.edu.au/2025/course/COMP3704">COMP3704</a>: Network Security</td>
+    </tr>
+  </table>
 
   <hr>
 
