@@ -1,0 +1,29 @@
+/* Horizontally scrollable table */
+.table-wrapper {
+  position: relative;
+  overflow-x: auto;
+  max-width: fit-content;
+}
+
+table {
+  min-width: 1100px;
+  max-width: 100%;
+  border-collapse: collapse;
+}
+
+col.year, col.semester { min-width: fit-content; }
+col.course { width: 20%; }
+
+th, td {
+  height: auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-style: ridge;
+  padding: 6px;
+}
+
+/* Colouring of table cells */
+.odd { background-color: #D9E8E8; }
+.even { background-color: #FFFFF2; }
+.proj { background-color: #FFF2E6; }
+.year { background-color: #EEEEEE; }

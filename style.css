@@ -1,14 +1,10 @@
 html, body {
   padding: 0;
   font-family: 'Roboto Slab', 'Noto Sans', sans-serif;
-  display: table;
   text-align: left;
   background: #EEEEEE;
-  margin-left: 3em;
-  margin-right: 3em;
-  overflow-x: scroll;
-  overflow-wrap: anywhere;
-  word-break: normal
+  margin: 2em;
+  margin-top: 1em;
 }
 
 /* Size of clickable icons in the footer */
@@ -18,49 +14,13 @@ html, body {
 }
 
 /* Margin of bullet points */
-ul li {
-  padding: 2px 0px;
-}
+ul li { padding: 2px 0px; }
 
 /* Colouring of clickable links */
-a {
-  color: #2F4F4F;
-}
+a { color: #2F4F4F; }
 
 /* Colouring of icons in the footer */
-.fa-solid, .fa-brands {
-  color: #848484;
-}
-
-/* Formatting of tables */
-table {
-  width: 100%;
-  display: block;
-  table-layout: fixed;
-  border-collapse: collapse;
-}
-
-col.auto {
-  width: 8%;
-}
-
-col.flex {
-  width: 21%;
-}
-
-th, td {
-  height: auto;
-  border: 1px solid black;
-  border-collapse: collapse;
-  border-style: ridge;
-  padding: 6px;
-}
-
-/* Colouring of table cells */
-.odd { background-color: #D9E8E8; }
-.even { background-color: #FFFFF2; }
-.proj { background-color: #FFF2E6; }
-.year { background-color: #EEEEEE; }
+.fa-solid, .fa-brands { color: #848484; }
 
 /* Reduce margin for small screens */
 @media only screen and (max-width: 800px) {
