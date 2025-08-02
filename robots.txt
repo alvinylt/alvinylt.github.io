@@ -3,3 +3,4 @@ Allow: /index.html
 Allow: /courses.html
 Disallow: /404.html
 Disallow: /assets/
+Disallow: /pubkey
