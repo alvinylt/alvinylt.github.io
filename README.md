@@ -8,4 +8,4 @@ embedded components. The [favicon](favicon.png) is attributed to
 shown the website are attributed to Font Awesome, subject to another
 [licence](assets/fontawesome/LICENCE).
 
-Last updated: 2025-08-02
+Last updated: 2025-12-03
