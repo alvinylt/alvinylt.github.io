@@ -19,6 +19,9 @@ ul li { padding: 2px 0px; }
 /* Colouring of clickable links */
 a { color: #2F4F4F; }
 
+/* Description of projects */
+.description { color: #32324e; font-style: oblique; }
+
 /* Colouring of icons in the footer */
 .fa-solid, .fa-brands { color: #848484; }
 
